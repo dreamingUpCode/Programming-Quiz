@@ -1,0 +1,46 @@
+Create a basic boilerplate with 
+Style for the app
+Image placeholders for all the images
+Question placeholder
+Answers placeholder
+Modal Popup for correct and  incorrect answers
+Number placeholder for telling the user what question they are on.
+create a var for keeping track of how many correct and incorrect
+
+How it works --
+
+On Start 
+Create Questions in Object
+Hide Photos
+
+Create Var of
+number Correct // if click correct ++ if click incorrect numberCorrect =0;
+currentQuestion // ++ shows what question we are on
+newQuestion // Which inputs the obect question into the question area
+newAnswer // Inputs new questions from object
+next button in modal should start new question
+
+
+local var
+answer// which is the value of the answer
+
+if (answer == questions[currentQuestion].correct
+numberCorrect++ // increase the correct number for the end
+display modal
+
+else if
+display incorrect modal
+
+on click of the correct one goes to next question whcih shows and hides certain things
+
+next question function  if current question less than 5 remove everything adn input the new question variable
+else display final modal with the number correct
+
+5 questions
+jQuery
+Ruby
+Python
+PHP
+Swift
+
+
